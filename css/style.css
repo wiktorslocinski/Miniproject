@@ -1,129 +1,53 @@
 /**Navigation**/
-ul {
-    list-style-type: none;
-  }
-  
-  li {
-    display: inline;
-    padding-right: 20px;
-  }
-  
-  .navigation a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .navi {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 35px;
-    text-align: center;
-    color: white;
-  }
-  
-  p {
-    font-size: 55px;
-    color: white;
-    text-align: center;
-  }
-  
-  .btn {
-    text-decoration: none;
-    color: white;
-    font-family: 'Lobster', cursive;
-    padding: 20px;
-    background-color: yellowgreen;
-    border-radius: 20px;
-  }
-  
-  .third {
-    text-align: center;
-  }
-  
-  .splash {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 450px;
-    flex-direction: column;
-  }
-  
-  .background {
-    background-size: cover;
-    background-attachment: fixed;
-    background-image: url(https://images.pexels.com/photos/3608328/pexels-photo-3608328.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
-  }
-  
-  /**services**/
-  .services {
-    text-align: center;
-    padding: 50px;
-  }
-  
-  .icon {
-    margin: 80px;
-  }
-  
-  .one, .two, .three {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .border {
-    height: 80px;
-    width: 80px;
-    border: solid yellow 2px;
-    border-radius: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .portfolio {
-    text-align: center;
-    background-color: #707978;
-    padding-top: 30px;
-    padding-bottom: 30px;
-  }
-  
-  img {
-    max-width: 100%;
-    max-height: 100%;
-  }
-  
-  h4 {
-    font-family: 'Lobster', cursive;
-  }
-  
-  .brands {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  footer {
-    padding: 30px;
-  }
-  
-  .fab {
-    margin-right: 5px;
-  }
-  
-  .name {
-    background-color: white;
-  }
-  
-  .seven, .eight, .nine {
-    margin-top: 20px;
-  }
-  
-  .four, .five, .six {
-    margin-top: 40px;
-  }
+ul { list-style-type: none; }
+
+li { display: inline; padding-right: 20px; }
+
+.navigation a { text-decoration: none; color: white; }
+
+.navi { display: flex; justify-content: flex-end; }
+
+h1 { font-family: 'Lobster', cursive; font-size: 35px; text-align: center; color: white; }
+
+.second p { font-size: 55px; color: white; text-align: center; }
+
+.btn { text-decoration: none; color: white; font-family: 'Lobster', cursive; padding: 20px; background-color: yellowgreen; border-radius: 20px; }
+
+.third { text-align: center; }
+
+.splash { display: flex; justify-content: center; align-items: center; min-height: 450px; flex-direction: column; }
+
+.background { background-size: cover; background-attachment: fixed; background-image: url(https://i.postimg.cc/kXbYrs9m/pexels-francesco-ungaro-606511.jpg); }
+
+/**services**/
+.services { text-align: center; padding: 50px; }
+
+.icon { margin: 80px; }
+
+.one, .two, .three { flex: 1; display: flex; flex-direction: column; justify-content: center; align-items: center; }
+
+.border { height: 80px; width: 80px; border: solid yellow 2px; border-radius: 30px; display: flex; justify-content: center; align-items: center; }
+
+.portfolio { text-align: center; background-color: #E2E6E6; padding-top: 30px; padding-bottom: 30px; }
+
+img { max-width: 100%; max-height: 100%; }
+
+h4 { font-family: 'Lobster', cursive; }
+
+.brands { display: flex; justify-content: center; align-items: center; }
+
+footer { padding: 30px; }
+
+.fab { margin-right: 5px; }
+
+.name { background-color: white; }
+
+.seven, .eight, .nine { margin-top: 20px; }
+
+.four, .five, .six { margin-top: 20px; }
+
+/* Media */
+@media (max-width: 767px) { .four, .five, .six, .seven, .eight, .nine { margin-top: 10px; }
+  .services { padding: 20px; }
+  .icon { margin: 40px; }
+  .one, .two, .three { margin: 5px; } }

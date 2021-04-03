@@ -25,7 +25,7 @@ ul {
     color: white;
   }
   
-  p {
+  .second p {
     font-size: 55px;
     color: white;
     text-align: center;
@@ -125,5 +125,24 @@ ul {
   }
   
   .four, .five, .six {
-    margin-top: 40px;
+    margin-top: 20px;
+  }
+
+  /* Media */
+
+  @media (max-width: 767px) {
+    .four, .five, .six, .seven, .eight, .nine {
+      margin-top: 10px;
+    }
+
+    .services {
+      padding: 20px;
+    }
+
+    .icon{
+      margin: 40px;
+    }
+    .one, .two, .three {
+      margin: 5px;
+    }
   }
